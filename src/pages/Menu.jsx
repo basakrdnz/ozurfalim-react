@@ -71,7 +71,7 @@ function Menu() {
         { id: 17, category: 'kebap', image: copSis, title: 'Çöp Şiş', description: 'Lokum gibi kuzu eti.' },
         { id: 18, category: 'kebap', image: cigerSis, title: 'Ciğer Şiş', description: 'Urfa usulü taze ciğer.' },
         { id: 19, category: 'kebap', image: tavukSis, title: 'Tavuk Şiş', description: 'Marine edilmiş tavuk göğsü.' },
-        { id: 20, category: 'kebap', image: kuzuSirt, title: 'Kuzu Sırtı', description: 'En seçkin kuzu eti.' },
+        { id: 20, category: 'kebap', image: kuzuSirt, title: 'Kuzu Sırt', description: 'En seçkin kuzu eti.' },
         { id: 21, category: 'kebap', image: kulbasti, title: 'Külbastı', description: 'İnce dövülmüş özel biftek.' },
         { id: 22, category: 'kebap', image: pirzola, title: 'Pirzola', description: 'Taze kuzu kaburga.' },
         { id: 23, category: 'kebap', image: tepsiKebap, title: 'Tepsi Kebabı', description: 'Bol harçlı Hatay usulü.' },
