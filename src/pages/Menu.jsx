@@ -4,42 +4,42 @@ import MenuCard from '../components/MenuCard';
 
 // Görseller - Gerçek yemek fotoğrafları
 import adanaKebap from '../assets/images/adanakebap.jpg';
-import patlicanKebap from '../assets/images/patlıcankebabı.jpg';
-import karisikTabak from '../assets/images/karısıktabak.jpg';
+import patlicanKebap from '../assets/images/patlicankebabi.jpg';
+import karisikTabak from '../assets/images/karisiktabak.jpg';
 import urfaKebap from '../assets/images/adanakebap2.jpg';
 import beytiKebap from '../assets/images/beyti.jpg';
 import domatesliKebap from '../assets/images/domateslikebap.jpg';
 import hashasKebap from '../assets/images/hashaskebap.jpg';
 import copSis from '../assets/images/copsis.jpg';
-import cigerSis from '../assets/images/ciğersis.jpg';
+import cigerSis from '../assets/images/cigersis.jpg';
 import tavukSis from '../assets/images/tavuksis.jpg';
-import kuzuSirt from '../assets/images/kuzusırt.jpg';
-import kulbasti from '../assets/images/külbastı.jpg';
+import kuzuSirt from '../assets/images/kuzusirt.jpg';
+import kulbasti from '../assets/images/kulbasti.jpg';
 import pirzola from '../assets/images/pirzola.jpg';
 import tepsiKebap from '../assets/images/tepsikebap.jpg';
 
 import lahmacun from '../assets/images/lahmacun.jpg';
 import aciliLahmacun from '../assets/images/lahmacun2.jpg';
-import ozelLahmacun from '../assets/images/özellahmacun.jpg';
+import ozelLahmacun from '../assets/images/ozellahmacun.jpg';
 import cevizliLahmacun from '../assets/images/cevizlilahmacun.jpg';
 
-import kusbasiliPide from '../assets/images/kusbasıpide.jpg';
-import kasarliPide from '../assets/images/kıymakaşarpide.jpg';
-import karisikPide from '../assets/images/karısıkpide.jpg';
-import kusbasiliKasarpide from '../assets/images/kusbasıkasarpide.jpg';
-import kiymaliPide from '../assets/images/kıymalıpide.jpg';
+import kusbasiliPide from '../assets/images/kusbasipide.jpg';
+import kasarliPide from '../assets/images/kiymakasarpide.jpg';
+import karisikPide from '../assets/images/karisikpide.jpg';
+import kusbasiliKasarpide from '../assets/images/kusbasikasarpide.jpg';
+import kiymaliPide from '../assets/images/kiymalipide.jpg';
 
-import mercimekCorba from '../assets/images/mercimekçorba.jpg';
-import ezogelinCorba from '../assets/images/ezogelinçorba.jpg';
+import mercimekCorba from '../assets/images/mercimekcorba.jpg';
+import ezogelinCorba from '../assets/images/ezogelincorba.jpg';
 
-import cobanSalata from '../assets/images/çobansalata.jpg';
-import gavurdagiSalata from '../assets/images/gavurdağsalata.jpg';
+import cobanSalata from '../assets/images/cobansalata.jpg';
+import gavurdagiSalata from '../assets/images/gavurdagsalata.jpg';
 
-import icliKofte from '../assets/images/içliköfte.jpg';
+import icliKofte from '../assets/images/iclikofte.jpg';
 
-import kunefe from '../assets/images/künefe.jpg';
+import kunefe from '../assets/images/kunefe.jpg';
 
-import turkKahvesi from '../assets/images/türkkahvesi.jpg';
+
 
 function Menu() {
     const [activeCategory, setActiveCategory] = useState('all');
@@ -99,8 +99,7 @@ function Menu() {
         // Tatlılar
         { id: 29, category: 'tatli', image: kunefe, title: 'Künefe', description: 'Tuzsuz peynirli, şerbetli.' },
 
-        // İçecekler
-        { id: 30, category: 'icecek', image: turkKahvesi, title: 'Türk Kahvesi', description: 'Günün yorgunluğunu atan.' }
+
     ];
 
     const filteredItems = activeCategory === 'all'

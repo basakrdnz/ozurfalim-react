@@ -3,9 +3,9 @@ import MenuCard from '../components/MenuCard';
 
 // Görseller - Gerçek yemek fotoğrafları
 import heroImg from '../assets/images/hero.jpg';
-import patlicanKebap from '../assets/images/patlıcankebabı.jpg';
-import cigerSis from '../assets/images/ciğersis.jpg';
-import ozelLahmacun from '../assets/images/özellahmacun.jpg';
+import patlicanKebap from '../assets/images/patlicankebabi.jpg';
+import cigerSis from '../assets/images/cigersis.jpg';
+import ozelLahmacun from '../assets/images/ozellahmacun.jpg';
 
 function Home() {
     const popularItems = [
