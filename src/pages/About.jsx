@@ -21,7 +21,7 @@ function About() {
                         <div className="card" style={{ padding: '32px', display: 'flex', flexDirection: 'column', gap: '16px' }}>
                             <h3 style={{ margin: 0, fontSize: '18px', fontWeight: 800, color: 'var(--dark-green)' }}>Hakkımızda</h3>
                             <p style={{ margin: 0, fontSize: '14px', lineHeight: '1.7', color: 'var(--muted)' }}>
-                                1975 yılında Şanlıurfa'da kebap geleneğini yaşatmak amacıyla yola çıkan Öz Urfalım Kebap, 1992 yılında bu köklü lezzet mirasını Ankara'ya taşımıştır. Yaklaşık 35 yıldır Ankara'da Emek 4. Caddede misafirlerini ağırlayan Öz Urfalım Kebap, kalite ve lezzetten ödün vermeden, şimdi yeni yerinde ustalığını nesilden nesile aktarmaya devam etmektedir.
+                                1975 yılında Şanlıurfa'da kebap geleneğini yaşatmak amacıyla yola çıkan Öz Urfalım Kebap, 1992 yılında bu köklü lezzet mirasını Ankara'ya taşımıştır. Uzun yıllar boyu Ankara Emek'teki yerimizde misafirlerimizi ağırladıktan sonra, şimdi Beştepe'deki yeni şubemizde kalite ve lezzetten ödün vermeden ustalığımızı nesilden nesile aktarmaya devam ediyoruz.
                             </p>
                         </div>
 
