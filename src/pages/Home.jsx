@@ -104,7 +104,7 @@ function Home() {
                         ))}
                     </div>
 
-                    <div style={{ marginTop: '20px', display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
+                    <div className="actions-row">
                         <Link className="btn primary" to="/menu">Tüm Menüyü Gör</Link>
                         <Link className="btn" to="/iletisim">Konum &amp; İletişim</Link>
                     </div>

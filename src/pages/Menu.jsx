@@ -282,7 +282,7 @@ function Menu() {
                     )}
 
                     {/* CTA Buttons */}
-                    <div style={{ marginTop: '20px', display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
+                    <div className="actions-row">
                         <a className="btn primary" href="https://getir.com/yemek/restoran/oz-urfalim-yenimahalle-bestepe-mah-yenimahalle-ankara/" target="_blank" rel="noopener noreferrer">Getir'den Sipariş Ver</a>
                         <Link className="btn" to="/iletisim#map">Konum</Link>
                     </div>

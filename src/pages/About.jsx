@@ -16,7 +16,7 @@ function About() {
             {/* About Content */}
             <section className="section" style={{ paddingTop: '20px' }}>
                 <div className="container">
-                    <div className="about-content" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '18px', alignItems: 'stretch' }}>
+                    <div className="about-content">
                         {/* Left Card - White */}
                         <div className="card" style={{ padding: '32px', display: 'flex', flexDirection: 'column', gap: '16px' }}>
                             <h3 style={{ margin: 0, fontSize: '18px', fontWeight: 800, color: 'var(--dark-green)' }}>Hakkımızda</h3>
@@ -37,7 +37,7 @@ function About() {
                         </div>
                     </div>
 
-                    <div style={{ marginTop: '24px', display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
+                    <div className="actions-row">
                         <Link className="btn primary" to="/menu">Menüyü İncele</Link>
                         <Link className="btn" to="/iletisim">Yol Tarifi</Link>
                     </div>

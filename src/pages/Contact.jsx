@@ -25,12 +25,12 @@ function Contact() {
     return (
         <>
             {/* Page Header */}
-            <div className="page-header" style={{ textAlign: 'left', display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', padding: '30px 0' }}>
-                <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', width: '100%' }}>
+            <div className="page-header">
+                <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%', flexWrap: 'wrap', gap: '10px' }}>
                     <div>
                         <h1 style={{ fontSize: '32px', marginBottom: '0' }}>İletişim</h1>
                     </div>
-                    <div>
+                    <div className="hide-m">
                         <p style={{ color: 'rgba(255, 255, 255, .9)', fontSize: '15px', fontWeight: '500' }}>Şubemize kolayca ulaşın</p>
                     </div>
                 </div>
@@ -40,7 +40,7 @@ function Contact() {
             <section className="section" id="map" style={{ paddingTop: '24px' }}>
                 <div className="container">
                     <div className="card" style={{ padding: '0', overflow: 'hidden' }}>
-                        <div className="split" style={{ gridTemplateColumns: 'minmax(300px, 1.2fr) 0.8fr', gap: '0' }}>
+                        <div className="split" style={{ gap: '0' }}>
                             <div className="map-container" style={{ borderRadius: '0', border: 'none', minHeight: '450px' }}>
                                 <iframe
                                     title="Öz Urfalım Beştepe"
@@ -58,7 +58,7 @@ function Contact() {
                                 </p>
 
                                 <div className="minirow" style={{ gap: '12px' }}>
-                                    <a className="btn" href="tel:+903122137979" style={{ color: 'var(--green)', padding: '12px 28px' }}>Telefon</a>
+                                    <a className="btn" href="tel:+903122226665" style={{ color: 'var(--green)', padding: '12px 28px' }}>Telefon</a>
                                     <a className="btn" href="https://www.google.com/maps/dir//Be%C5%9Ftepe,+Alparslan+T%C3%BCrke%C5%9F+Cd.+15%2FA,+06600+Yenimahalle%2FAnkara" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--green)', padding: '12px 28px' }}>Yol Tarifi</a>
                                 </div>
                             </div>
