@@ -47,7 +47,7 @@ function Contact() {
                                     loading="lazy"
                                     allowFullScreen
                                     referrerPolicy="no-referrer-when-downgrade"
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3059.8184566373767!2d32.8123019!3d39.9231464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4082836709890f5b%3A0x280e8e9ef249419b!2s%C3%96z%20Urfal%C4%B1m%20Be%C5%9Ftepe!5e0!3m2!1str!2str!4v1738850022416!5m2!1str!2str"
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3059.4962919855343!2d32.81165848885498!3d39.930287199999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d3454d6d30fb07%3A0xab162d994d2e6335!2zw5Z6IFVyZmFsxLFtIEtlYmFwIEJlxZ90ZXBl!5e0!3m2!1str!2str!4v1770390867616!5m2!1str!2str"
                                 ></iframe>
                             </div>
 
